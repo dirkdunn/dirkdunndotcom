@@ -43,6 +43,10 @@ table {
 	border-spacing: 0;
 }
 
+#robot_main {
+	cursor:pointer;
+}
+
 html {
   font-size:16px;
   background-color:#FFF;
@@ -137,4 +141,13 @@ ul.social li:hover {
 
 .icon-Npm-logo {
   font-size:1.2em;
+}
+.resume-options{
+	text-align:center;
+}
+.resume-options a {
+	font-size:20px;
+	color: #361f7e;
+	border: 2px solid #311a79;
+	margin-right:1em;
 }
