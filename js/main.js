@@ -32,7 +32,7 @@
     }
   },
 
-  fibInterval = setInterval(function(){
+  fibGenerator = setInterval(function(){
     var nextFib = fibSeq[fibSeq.length-1] + fibSeq[fibSeq.length-2];
     fibSeq.push(nextFib);
     fibIndex++;
