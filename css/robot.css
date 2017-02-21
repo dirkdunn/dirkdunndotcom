@@ -3,8 +3,8 @@
   top: 5%;
   left: 5%;
   transform: translate3d(-50%,-50%,0);
-  max-width: 25vw;
-  max-height: 25vh;
+  max-width: 150px;
+  max-height: 150px;
   margin: 0 auto;
   z-index:100;
 }
