@@ -224,11 +224,21 @@ $(document).ready(function () {
         var cardContent = cardItem.find('.js-card-content'),
             cardModal = cardItem.find('.js-card-modal-content');
 
+        cardsContainer.toggleClass('show-project');
+
         button.toggleClass('c-card__button-field--is-active');
         cardItem.toggleClass('c-card__item--modal');
         cardItem.toggleClass('c-card__item');
         cardContent.toggleClass('u-fade-out');
         cardModal.toggleClass('u-fade-in');
+
+        if(cardsContainer.hasClass('show-project')){
+          $('.c-card__item').addClass('collapsed');
+          $('.c-main-nav__item').find('a[href="#section-projects"]').trigger('click');
+        } else {
+          $('.c-card__item').removeClass('collapsed');
+        }
+
       });
     },
 
