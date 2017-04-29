@@ -234,7 +234,9 @@ $(document).ready(function () {
 
         if(cardsContainer.hasClass('show-project')){
           $('.c-card__item').addClass('collapsed');
-          $('.c-main-nav__item').find('a[href="#section-projects"]').trigger('click');
+          if(window.innerWidth > 1200){
+            $('.c-main-nav__item').find('a[href="#section-projects"]').trigger('click');
+          }
         } else {
           $('.c-card__item').removeClass('collapsed');
         }
