@@ -238,7 +238,7 @@ $(document).ready(function () {
       var mainNav = this.globalArgs.mainNav,
           mainContainer = document.querySelector('.js-main-container'),
           containerMargin = 0,
-          menuFixingPoint = $("#section-education"),
+          menuFixingPoint = $("#section-background"),
           menuFixingPointBottom = $(".js-main-footer"),
           mainFooterTop = $('.js-main-footer-top');
 
