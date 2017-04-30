@@ -16,8 +16,6 @@ $(document).ready(function () {
         // })
 
       $('.email-processing').fadeIn();
-
-
       $.ajax({
           url: "https://formspree.io/dirkdunn1@gmail.com",
           method: "POST",
